@@ -11,6 +11,7 @@ tasks = [
 
 health= {
     1 : {
+        "programmer": "shaun arabpourian",
         "name": "Task API",
         "version": "1.0",
         "endpoints": ["/tasks"]
@@ -74,4 +75,6 @@ def delete_task(task_id: int):
 
 ##http://localhost:8000/docs for the FastAPI UI
 ##http://localhost:8000/redoc for the Swagger UI
+
+##ngl i fumbled a lot here XDDD
 

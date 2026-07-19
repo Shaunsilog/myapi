@@ -77,4 +77,3 @@ def delete_task(task_id: int):
 ##http://localhost:8000/redoc for the Swagger UI
 
 ##ngl i fumbled a lot here XDDD
-

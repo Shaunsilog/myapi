@@ -70,4 +70,8 @@ def delete_task(task_id: int):
         if task["id"] == task_id:
             tasks.pop(i)
             return JSONResponse(status_code=204, content=None)
-    return JSONResponse(status_code=404, content={"error": f"Task {task_id} not found"})
+    return JSONResponse(status_code=404, content={"error": f"Task {task_id} not found"})\
+
+##http://localhost:8000/docs for the FastAPI UI
+##http://localhost:8000/redoc for the Swagger UI
+
